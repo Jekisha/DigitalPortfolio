@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Courier New', Courier,;
+}
+header{
+    background-color:pink ;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+nav ul{
+    list-style-type:none ;
+    text-align:center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.profile-img{
+    display: block;
+    margin: 0auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+}
+.project{
+    margin-bottom:20px ;
+}
+.project h3{
+     color: aqua;
+}
+footer{
+    text-align: center;
+    padding: 0;
+    background-color: mediumturquoise;
+    color:black;
+}
+.h{
+    font-size: x-large;
+}
